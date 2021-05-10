@@ -7,9 +7,9 @@ const herokuUrl = 'https://damp-bayou-38809.herokuapp.com';
 })
 export class UserService {
 
-  constructor(private http: HttpClient) { console.log('user service loaded');}
+  constructor(private http: HttpClient) { console.log('user service loaded'); }
 
-  registerUser(newUser): void {
+  registerUser(newUser: any): void {
     console.log(newUser);
     this.http
       .post(`${herokuUrl}/auth/users/register`, newUser)
