@@ -10,6 +10,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { LogoutComponent } from './logout/logout.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LogoutComponent } from './logout/logout.component';
     CategoriesComponent,
     LoginComponent,
     HomeComponent,
-    LogoutComponent
+    LogoutComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
